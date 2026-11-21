@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="contenedor">
+
+        <h1>Flash Cards</h1>
+        <p>Aprende JavaScript poniendo a prueba tus conocimientos.</p>
+
+        <div class="progreso-info">
+            <span id="contador">Tarjeta 1 de 8</span>
+            <span id="porcentaje">0%</span>
+        </div>
+
+        <div class="progreso">
+            <div class="progreso-barra" id="progresoBarra"></div>
+        </div>
+
+        <div class="tarjeta" id="tarjeta">
+
+            <div class="tarjeta-frente">
+                <span>PREGUNTA</span>
+                <h2 id="pregunta"></h2>
+                <p>Haz clic para ver la respuesta</p>
+            </div>
+
+            <div class="tarjeta-reverso">
+                <span>RESPUESTA</span>
+                <h2 id="respuesta"></h2>
+                <p>Haz clic para volver</p>
+            </div>
+
+        </div>
+
+        <div class="botones">
+            <button id="anterior">Anterior</button>
+            <button id="voltear">Voltear tarjeta</button>
+            <button id="siguiente">Siguiente</button>
+        </div>
+
+        <footer>
+            Proyecto 15 - Flash Cards
+        </footer>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
